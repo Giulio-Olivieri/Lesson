@@ -2,6 +2,8 @@
 {
     public class Class1
     {
-                                    
+         int Costo=10;
     }
+
+
 }
