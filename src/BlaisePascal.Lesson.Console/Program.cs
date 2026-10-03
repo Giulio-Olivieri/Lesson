@@ -8,6 +8,8 @@ public class Program // Classe
     // Metodo Di Entrata Per Esecuzione Del Codice
     public static void Main()
     {
+        Console.BackgroundColor = ConsoleColor.DarkGray; Console.ForegroundColor = ConsoleColor.White;
+
         Console.WriteLine("     Inserisci Il Nome Del Cliente         ");
         Console.WriteLine("");
         string NomeCliente = Console.ReadLine();
@@ -36,7 +38,10 @@ public class Program // Classe
         Console.WriteLine($"Costo Totale: {CostoTotale}");
         
         Class1 NuovaCLasse = new Class1();
+
+
+
     }
-    
-   
+
+
 }
