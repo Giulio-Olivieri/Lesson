@@ -14,7 +14,7 @@ namespace BlaisePascal.VehicleClass.Domain
         public string LicencePlate { get; private set; } //il get è pubblico, il set è privato
         public int Kilometers { 
             get { return _kilometers; }
-            private set { if(value < 0) throw new ArgumentException("Kilometers cannot be negative."); _kilometers = value;
+            private set { if(value < 0) throw new ArgumentException("Kilometers cannot be negative.");          
 
                 _kilometers = value;
             }
