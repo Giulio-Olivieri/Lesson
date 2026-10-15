@@ -13,10 +13,8 @@ namespace BlaisePascal.VehicleClass.UiConsole
     {
         public static void Main()
         {
-            Vehicle vehicle = new Vehicle();
-            string licence = vehicle.GetLicencePlate();
+            Vehicle vehicle = new Vehicle("120");
 
-            Console.WriteLine($"Vehicle Licence Plate: {licence}");
         }
     }
 }
